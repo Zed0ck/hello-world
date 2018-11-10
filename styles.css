@@ -1,0 +1,67 @@
+/* This is my own stylesheet for my home page */
+
+/* ----------------------------- */
+/* Colors, positions and padding */
+/* ----------------------------- */
+
+body{
+    background-color: darkslategrey;
+}
+.container{
+    background-color: ghostwhite;
+}
+li{
+    display: inline;
+}
+nav{
+    /*box-shadow: 2px 2px 10px black;*/
+    height: 40px;
+    margin-top: 10px;
+}
+nav ul{
+    line-height: 20px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+nav li{
+    padding-right: 10px;
+}
+footer{
+    margin-top: 20px;
+}
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+
+nav a{
+    color: darkslategrey;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover{
+    color: darkslategrey;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgb(27,27,27);
+}
+nav h1{
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+footer p{
+    border-top: solid 1px;
+    color: darkslategrey;
+    font-size: 10px;
+}
