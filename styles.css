@@ -29,6 +29,9 @@ nav ul{
 nav li{
     padding-right: 10px;
 }
+footer{
+    margin-top: 20px;
+}
 
 /* ---------- */
 /* Typography */
@@ -59,4 +62,8 @@ p {
 }
 h3{
     border-bottom: solid 1px;
+}
+footer{
+    color: darkslategrey;
+    font-size: 10px;
 }
